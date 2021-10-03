@@ -1,12 +1,21 @@
 {
   "name": "@wach.id/grafont",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grafiko fonts.",
+  "style": "style.css",
+  "sass": "style.scss",
+  "keywords": [
+    "css",
+    "sass",
+    "font",
+    "icons",
+    "web"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turahe/grafont.git"
   },
-  "author": "Nur Wachuid <nur@wach.id>",
+  "author": "Nur Wachid <nur@wach.id>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turahe/grafont/issues"
