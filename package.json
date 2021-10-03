@@ -1,18 +1,19 @@
 {
-  "name": "grafont",
+  "name": "@wach.id/grafont",
   "version": "1.0.0",
   "description": "Grafiko fonts.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turahe/grafont.git"
   },
-  "publishConfig": {
-    "@turahe:registry": "https://npm.pkg.github.com"
-  },
   "author": "Nur Wachuid <nur@wach.id>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turahe/grafont/issues"
   },
-  "homepage": "https://github.com/turahe/grafont#readme"
+  "homepage": "https://github.com/turahe/grafont#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  }
 }
