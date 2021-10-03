@@ -1,12 +1,12 @@
 @import "variables";
 
 @font-face {
-  font-family: '#{grafont-font-family}';
-  src:  url('#{grafont-font-path}/#{grafont-font-family}.eot?2h345y');
-  src:  url('#{grafont-font-path}/#{grafont-font-family}.eot?2h345y#iefix') format('embedded-opentype'),
-    url('#{grafont-font-path}/#{grafont-font-family}.ttf?2h345y') format('truetype'),
-    url('#{grafont-font-path}/#{grafont-font-family}.woff?2h345y') format('woff'),
-    url('#{grafont-font-path}/#{grafont-font-family}.svg?2h345y##{grafont-font-family}') format('svg');
+  font-family: 'grafont';
+    src:  url('fonts/grafont.eot?2h345y');
+    src:  url('fonts/grafont.eot?2h345y#iefix') format('embedded-opentype'),
+    url('fonts/grafont.ttf?2h345y') format('truetype'),
+    url('fonts/grafont.woff?2h345y') format('woff'),
+    url('fonts/grafont.svg?2h345y#grafont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
