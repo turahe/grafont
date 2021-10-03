@@ -1,12 +1,12 @@
 @import "variables";
 
 @font-face {
-  font-family: '#{$Grafont-font-family}';
-  src:  url('#{$Grafont-font-path}/#{$Grafont-font-family}.eot?2h345y');
-  src:  url('#{$Grafont-font-path}/#{$Grafont-font-family}.eot?2h345y#iefix') format('embedded-opentype'),
-    url('#{$Grafont-font-path}/#{$Grafont-font-family}.ttf?2h345y') format('truetype'),
-    url('#{$Grafont-font-path}/#{$Grafont-font-family}.woff?2h345y') format('woff'),
-    url('#{$Grafont-font-path}/#{$Grafont-font-family}.svg?2h345y##{$Grafont-font-family}') format('svg');
+  font-family: '#{grafont-font-family}';
+  src:  url('#{grafont-font-path}/#{grafont-font-family}.eot?2h345y');
+  src:  url('#{grafont-font-path}/#{grafont-font-family}.eot?2h345y#iefix') format('embedded-opentype'),
+    url('#{grafont-font-path}/#{grafont-font-family}.ttf?2h345y') format('truetype'),
+    url('#{grafont-font-path}/#{grafont-font-family}.woff?2h345y') format('woff'),
+    url('#{grafont-font-path}/#{grafont-font-family}.svg?2h345y##{grafont-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -14,7 +14,7 @@
 
 [class^="gf-"], [class*=" gf-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: '#{$Grafont-font-family}' !important;
+  font-family: '#{grafont-font-family}' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
